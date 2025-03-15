@@ -1,0 +1,42 @@
+name: weather_assignment_digi
+description: "A weather application that shows current weather and forecast"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  # State Management
+  get: ^4.6.6
+  # Network
+  dio: ^5.4.1
+  connectivity_plus: ^5.0.2
+  # Location
+  geolocator: ^11.0.0
+  geocoding: ^2.2.0
+  # Storage
+  get_storage: ^2.1.1
+  # UI Components
+  flutter_screenutil: ^5.9.0
+  cached_network_image: ^3.3.1
+  shimmer: ^3.0.0
+  google_fonts: ^6.2.1
+  intl: ^0.19.0
+  # Environment Variables
+  flutter_dotenv: ^5.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - .env
