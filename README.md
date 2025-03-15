@@ -1,7 +1,5 @@
 # Weather App
 
-[//]: # (https://home.openweathermap.org/api_keys)
-[//]: # (bed847f5a5be44ee2951f320a6caa87c)
 ## Features
 
 - Current weather information based on user's location
